@@ -1,0 +1,30 @@
+.topvideo-card{
+    display: flex;
+    width: 80%;
+    margin: 10px 0px;
+    &__img{
+        flex: 1;
+        margin: auto 5px;
+        .img{
+           width: 100%;
+           display: block;
+        }
+    }
+    &__content{
+        background-color: #efefef;
+        flex: 3;
+        .title{
+            font-size: 1.6rem;
+            font-weight: 500;
+        }
+        .content{
+            font-size: 1.2 rem;
+            color: #606060;
+        }
+        .description{
+            font-size: 1.2 rem;
+            color: #606060;
+            padding: 10px 0px;
+        }
+    }
+}

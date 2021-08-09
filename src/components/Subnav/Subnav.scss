@@ -1,0 +1,46 @@
+.navbar{
+    
+    &__img{
+        padding: 10px;
+        .img{
+            height: 30px;
+            border-radius: 50%;
+        }
+    }
+
+    .subnav{
+        position: absolute;
+        top: 10px;
+        right: 5rem;
+        max-width: 23rem;
+        background-color: #ffffff;
+        box-shadow: 1px 1px 1px 1px;
+        &__info{
+            display: flex;
+            .channel{
+                display: flex;
+                flex-direction: column;
+                &__name{
+                    padding: 10px 0px;
+                }
+                &__link{
+                    text-decoration: none;
+                }
+            }
+        }
+        &__info{
+            border-bottom: 1px solid #ccc;
+            .img-info{
+                width: 50px;
+                padding: 10px 15px;
+                border-radius: 50%;
+            }
+           
+        }
+    }
+    .subnav--hidden{
+        display: none;
+        position: absolute;
+    }
+    
+}

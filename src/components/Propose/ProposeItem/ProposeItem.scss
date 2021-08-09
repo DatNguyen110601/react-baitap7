@@ -1,0 +1,27 @@
+.propose-card{
+    margin: auto 5px;
+   &__img{
+       flex: 1 ;
+       .img{
+        width: 100%;
+        display:block;
+        }
+   }
+   
+   &__content{
+       flex: 1;
+       .title{
+        font-size: 1.1rem;
+        font-weight: 500;
+       }
+       .channel{
+        font-size: 0.9rem;
+        padding-top: 10px;
+        color: #606060;
+       }
+       .footer{
+           font-size: 0.9rem;
+           color: #606060;
+       }
+   }
+}
